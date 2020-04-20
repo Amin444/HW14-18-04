@@ -82,7 +82,7 @@ namespace HW14_18_04
                         {
                             System.Console.Write("Наберите число А ");
                             double A= double.Parse(Console.ReadLine());
-                            System.Console.Write("Наберите число В");
+                            System.Console.Write("Наберите число  ");
                             double B= double.Parse(Console.ReadLine());
                             del<double> min = Minus<double>;
                             double result = min.Invoke(A, B);
